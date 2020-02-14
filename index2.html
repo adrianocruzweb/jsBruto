@@ -1,0 +1,95 @@
+<!--html>
+    <head>
+       <title>
+           Aula JS - Trabalhando o Dom
+       </title> 
+    </head>
+    <body>
+        <div id="app">
+            <!--input type="text" name="nome" id="nome"/>
+            <button class="botao">Adicionar</button-->
+
+            <!--Lidando com Elementos-->
+            <!--div class="box"></div-->
+            <!--ul>
+                <!--li>Fazer Café</li>
+                <a href="#">Excluir</a>
+                <li>Estudar Javascript</li>
+                <a href="#">Excluir</a>
+                <li>Acessar comunidade RocketSeat</li>
+                <a href="#">Excluir</a>
+            </ul>
+            <input type="text" placeholder="digite um todo">
+            <button>Adicionar</button>
+        </div>
+
+        <!--script>
+            /*
+            var inputElement = document.getElementById('nome');
+
+            console.log(inputElement);
+
+            var inputElement02 = document.getElementById('input');
+
+            console.log(inputElement02);
+
+            var inputElement03 = document.getElementsByClassName('nome')[0];
+
+            console.log(inputElement03);
+            */
+
+            //sempre retorna um único elemento
+            //caminho até o elemento que eu quero
+            //posso usar um atributo class ou id para facilitar a busca
+            /*
+            var inputElement04 = document.querySelector('body div#app input');
+            var inputElement04 = document.querySelector('input[name=nome]');
+            */
+            //mais de um elemento
+            /*
+            var inputElement04 = document.querySelectorAll('input');
+            */
+
+            //referencia com click
+            /*
+            var inputElement05 = document.querySelector('input[name=nome]');
+            var btnElement = document.querySelector('button.botao');
+            btnElement.onclick = function(){
+                var text = inputElement.value;
+                alert(text);
+            }
+            */
+
+            //Criar novos elementos com javascript
+            /*
+            var linkElement = document.createElement('a');
+            linkElement.setAttribute('href','http://rocketseat.com.br');
+            var textElement = document.createTextNode('acessar o link');
+            linkElement.appendChild(textElement);
+
+            var containerElement = document.querySelector('#app');
+            containerElement.appendChild(linkElement);
+
+            var inputElement = document.querySelector('#nome');
+            containerElement.removeChild(inputElement);
+
+            function mostraAlerta(){
+                alert("aula");
+            }
+            */
+
+            //Alteração de estilos
+            /*
+            var boxElement = document.querySelector('.box');
+
+            boxElement.style.width = 100;
+            boxElement.style.height = 100;
+            boxElement.style.backgroundColor = '#f00';
+            */
+
+        </script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!--script src="todos.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html-->
