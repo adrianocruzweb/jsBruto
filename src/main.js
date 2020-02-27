@@ -68,6 +68,13 @@ const usuario = {
 
 console.log(usuario);*/
 
-import {soma} from './funcoes';
+//import sSoma, {soma as somaFunction, sub} from './funcoes';
+/*import funcaoSoma from '../soma';
+import * as funcoes from '../funcoes';
 
-console.log(soma(1,2));
+console.log(funcoes.soma(1,2));
+console.log(funcaoSoma(1,2));
+console.log(funcoes.sub(1,2));
+console.log(funcoes.default(1,2));*/
+
+

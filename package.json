@@ -4,7 +4,7 @@
   "description": "alas de js ecma6",
   "main": "main.js",
   "scripts": {
-    "dev": "webpack --mode=development -w"
+    "dev": "webpack-dev-server --mode=development"
   },
   "author": "Adriano",
   "license": "ISC",
@@ -17,5 +17,8 @@
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "yarn": "^1.22.0"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.10.3"
   }
 }
